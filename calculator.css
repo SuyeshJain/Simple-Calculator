@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    font-size: 25px;
+    overflow: hidden;
+    background: #a7a5a5;
+}
+
+.container {
+    position: absolute;
+    top: 100px;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    overflow: hidden;
+    background: #a7a5a5;
+}
+
+.all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Bruno Ace', cursive;
+    background-image: url(img/mathbg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.button {
+    width: 65px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Bruno Ace', cursive;
+    background-color: wheat;
+}
+
+.clr {
+    background-color: orange;
+}
+
+.row {
+    margin: 8px 0px;
+}
+
+.row input {
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+    margin: 0;
+    padding: 6px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
